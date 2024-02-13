@@ -1,0 +1,81 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #c10ba5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for the header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Styling for the Act container grid */
+#ActContainer {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+    justify-content: center;
+    padding: 20px;
+}
+
+/* Styling for individual Act cards */
+.ActCard {
+    width: 100%;
+    background-color: #000000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    transition: transform 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+/* Hover effect for Act cards */
+.ActCard:hover {
+    transform: scale(1.05);
+}
+
+/* Styling for Act card images and text */
+.ActCard img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-bottom: 2px solid #eee;
+}
+
+.ActCard p {
+    padding: 15px;
+    text-align: left;
+    font-size: 14px;
+    color: #ffffff;
+}
+
+/* Styling for the Act information section */
+#ActInfo {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+#ActInfo h2 {
+    color: #333;
+}
+
+#ActInfo p {
+    max-width: 600px;
+    margin: 0 auto;
+    font-size: 16px;
+    color: #555;
+}
+
+#ActInfo img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}

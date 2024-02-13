@@ -1,0 +1,75 @@
+
+    body {
+      font-family: Arial, sans-serif;
+      background-image: url('https://scontent.fhdy1-1.fna.fbcdn.net/v/t1.15752-9/418422194_1039554550464876_787885842204791668_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_eui2=AeGfhsX7gxCE2FEwB39iwtP9vyValls-YLO_JVqWWz5gszpMGOhgFVNcoNu1y_QOpzUwoZ58yoHV4Y4vxh9QuxF8&_nc_ohc=7Nq_vu-ysMcAX-DUX3m&_nc_ht=scontent.fhdy1-1.fna&cb_e2o_trans=q&oh=03_AdRlpPxuPI1ZmCb8lOwXEqQezrbtZfZ-q6Xh3S5ATVGqwg&oe=65D6EEA6');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      margin: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .login-container {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      width: 300px;
+    }
+
+    .form-group {
+      margin-bottom: 15px;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-bottom: 5px;
+      color: #8e44ad;
+    }
+
+    input {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    button {
+      background-color: #8e44ad;
+      color: #fff;
+      padding: 10px 15px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    button:hover {
+      background-color: #6c3483;
+    }
+
+    .modal {
+      display: none;
+      position: fixed;
+      z-index: 1;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+      overflow: auto;
+      background-color: rgba(0,0,0,0.7);
+    }
+
+    .modal-content {
+      background-color: #fefefe;
+      margin: 15% auto;
+      padding: 20px;
+      border: 1px solid #888;
+      width: 80%;
+    }
+  
